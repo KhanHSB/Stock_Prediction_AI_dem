@@ -44,10 +44,6 @@ class NN_model(Sequential):
         self.model.add(Dense(units = 100))
         self.model.add(LSTM(units = 100))
         self.model.add(Dense(units =1))
-
-        
-    #def custom_compile(self, input_model):
-     #   input_model.compile(loss='mean_squared_error', optimizer ='adam')
         
 
 
